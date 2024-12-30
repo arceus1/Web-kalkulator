@@ -48,7 +48,7 @@ th, td {
 
 footer {
   grid-area: footer;
-  background: black;
+  background: yellow;
 position: absolute;
 bottom: 0;
 width: 100%;
