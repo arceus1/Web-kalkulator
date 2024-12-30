@@ -90,6 +90,16 @@ footer ul li {
   list-style: none;
   align-self: flex-end;
 }
+footer ul {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em 0;
+  }
+
+  footer ul li a img {
+    width: 20%;
+  }
+
 
 footer ul li a {
   text-decoration: none;
