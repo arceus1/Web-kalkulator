@@ -48,7 +48,6 @@ th, td {
 
 footer {
   grid-area: footer;
-  grid-row: 2;
   background: black;
 position: absolute;
 bottom: 0;
