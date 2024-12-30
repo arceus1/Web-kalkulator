@@ -6,6 +6,9 @@ body {
 
 button {
  display:block;
+ position: absolute;
+ top: 50%:
+ left: 50%;
  background-color: #7cfc00;
  color: black;
  font-size:24px;
