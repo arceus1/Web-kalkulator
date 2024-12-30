@@ -41,15 +41,23 @@ th, td {
  text-align:center;
  margin-bottom:10px;
 }
-.social-media-icon {
-    padding: 5px;
-    background: #222;
-    color: #fff;
-    border-radius: 4px;
-}
-
-a.social-media-icon:hover{
-    background: #fff!important;
-    color: #222!important;
-}
-
+   .social-media-icon {
+        padding: 2px 3px 1px 3px;
+        background: #222;
+        color: #fff;
+        margin: 5px;
+        border-radius: 4px;
+    }
+    a.social-media-icon:hover{
+        background: #fff!important;
+        color: #222!important;
+    }
+    .facebook{
+        background:  #3c5a98!important;
+    }
+    .whatsapp{
+        background: #1da1f2!important;
+    }
+    .instagram{
+        background: #262626!important;;
+    }
