@@ -51,10 +51,19 @@ th, td {
 .content {
   grid-area: content;
 }
-
+.sidebar {
+  grid-area: sidebar;
+  background: linear-gradient(
+    to right,
+    rgba(200, 107, 142, 1),
+    rgba(218, 105, 250, 1),
+    rgba(110, 125, 253, 1)
+  );
+  justify-content: center;
+}
 footer {
   grid-area: footer;
-  background: yellow;
+  background: black;
 position: absolute;
 bottom: 0;
 width: 100%;
