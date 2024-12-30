@@ -44,7 +44,13 @@ th, td {
 
 
 
-
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  grid-area: content;
+}
 
 footer {
   grid-area: footer;
