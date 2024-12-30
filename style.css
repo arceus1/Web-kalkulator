@@ -131,6 +131,7 @@ nav li a:hover {
 footer ul {
   max-width: 640px;
   margin: 2em auto;
+  background:black;
   padding: 0;
   text-align: center;
   display: flex;
