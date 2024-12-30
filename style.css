@@ -1,7 +1,5 @@
 body {
  
-
-
  background-color: green;
  font-family: Arial, sans-serif;
 }
@@ -56,7 +54,6 @@ position: absolute;
 bottom: 0;
 width: 100%;
 text-align:center;
- display:block;
 }
  
 .container {
