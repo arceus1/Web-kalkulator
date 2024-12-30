@@ -129,19 +129,14 @@ nav li a:hover {
 }
 
 footer ul {
- grid-area: footer;
   max-width: 640px;
+ background:black;
   margin: 2em auto;
-  background:black;
- position: absolute;
- bottom: 0;
- width: 100%;
   padding: 0;
   text-align: center;
- display: inline-block;
+  display: flex;
   flex-direction: row;
 }
-
 footer ul li {
   list-style: none;
   align-self: flex-end;
