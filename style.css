@@ -5,6 +5,7 @@ body {
 }
 
 button {
+ display:block;
  background-color: #7cfc00;
  color: black;
  font-size:24px;
