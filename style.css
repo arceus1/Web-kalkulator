@@ -50,18 +50,9 @@ th, td {
   grid-area: content;
 }
  
-.sidebar {
-  grid-area: sidebar;
-  background: linear-gradient(
-    to right,
-    rgba(200, 107, 142, 1),
-    rgba(218, 105, 250, 1),
-    rgba(110, 125, 253, 1)
-  );
-  justify-content: center;
-}
+
  
-.footer {
+footer {
   grid-area: footer;
   grid-row: 2;
   background: black;
