@@ -42,13 +42,6 @@ th, td {
  margin-bottom:10px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-.content {
-  grid-area: content;
-}
  
 
  
