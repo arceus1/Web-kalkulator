@@ -1,0 +1,44 @@
+body {
+ background-color: green;
+ font-family: Arial, sans-serif;
+}
+
+button {
+ background-color: #7cfc00;
+ color: black;
+ padding: 10px 20px;
+ margin:auto;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+#nilai1 {
+ width: 30%;
+ height: 10px;
+ padding:10px;
+ font-size: 11px;
+ font-family: monospace;
+ border: 1px solid #ccc;
+ }
+label {
+ text-align:left; 
+ float: left;
+ margin-bottom: 10px;
+ margin-right: 10px;
+ width: 130px;
+ height: 10px;
+}
+table {
+ font-family: Open Sans, sans-serif;
+ border-collapse: separate;
+ border-spacing: 0;
+ width: 100%;
+ text-align:center;
+}
+th, td {
+ padding: 12px;
+ border-bottom: 1px solid #ccc;
+ text-align:center;
+ margin-bottom:10px;
+}
+
