@@ -7,9 +7,8 @@ body {
 button {
  background-color: #7cfc00;
  display:block;
- position: absolute;
  color: black;
- margin:0 auto;
+ margin: auto;
  border: none;
  border-radius: 5px;
  cursor: pointer;
