@@ -210,4 +210,8 @@ footer p {
   footer ul li a img {
     width: 20%;
   }
+ p {
+  color:white;
+  text-align:center;
+ }
 }
