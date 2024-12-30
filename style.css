@@ -76,3 +76,30 @@ nav li a {
 nav li a:hover {
   opacity: 1;
 }
+
+footer ul {
+  max-width: 640px;
+  margin: 2em auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li {
+  list-style: none;
+  align-self: flex-end;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #c1c6ce;
+}
+
+footer ul li img {
+  width: 30%;
+}
+
+footer p {
+  font-size: 0.8em;
+}
