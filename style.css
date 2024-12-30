@@ -64,13 +64,16 @@ th, td {
 }
 
 .footer {
+ display:flex;
+ justify-content: center;
+ height: 100px;
   grid-area: footer;
   grid-row: 2;
   background: black;
 position: absolute;
 bottom: 0;
 width: 100%;
-text-align:center;
+text-items:center;
 }
 
 .container {
