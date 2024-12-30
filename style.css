@@ -1,4 +1,8 @@
 body {
+ 
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
  background-color: green;
  font-family: Arial, sans-serif;
 }
@@ -54,6 +58,7 @@ bottom: 0;
 width: 100%;
 text-align:center;
  display:block;
+ margin-top: auto;
 }
  
 .container {
