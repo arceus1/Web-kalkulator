@@ -16,7 +16,7 @@ button {
  border: none;
  border-radius: 5px;
  cursor: pointer;
- justify-content: center;
+ text-align: center;
 }
 #nilai1 {
  width: 30%;
