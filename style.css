@@ -43,16 +43,10 @@ th, td {
 }
 
 
-* {
-  margin: 0;
-  padding: 0;
-}
-.content {
-  grid-area: content;
-}
 
 
-.footer {
+
+footer {
   grid-area: footer;
   grid-row: 2;
   background: black;
