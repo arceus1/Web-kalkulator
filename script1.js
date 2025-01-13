@@ -1,14 +1,14 @@
-document.getElementById('hitung').addEventListener('click', function() {
-  const nilaiSelect = parseFloat(document.getElementById('pilihan').value);
-  const nilaiInput = parseInt(document.getElementById('nilai1').value);
+function calculate() {
+        var input1 = parseFloat(document.getElementById('input1').value);
+        var input2 = parseInt(document.getElementById('input2').value);
+        var sum = input2 / input1;
+        var hours = Math.floor(sum / 60);
+        var minutes = Math.round (sum % 60);
 
-  if (!isNaN(nilaiSelect) && !isNaN(nilaiInput)) {
-    const hasil =Math.round(nilaiInput / nilaiSelect);
-    const jam = Math.floor(hasil / 60);
-    const menit = hasil % 60;
+        document.getElementById('modalText').innerText = "Hasile: " + Jam + " hours and>
+        document.getElementById('myModal').style.display = "flex";
+    }
 
-  alert(`${jam} jam ${menit} menit`);
-  } else {
-    alert('Masukkan angka yang valid!');
-  }
-});
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
