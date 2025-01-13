@@ -1,79 +1,48 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Aplikasi Kalkulator Sablon</title>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sablon</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1 class="text-center">Selamat Datang!</h1>
- <br></br>
-<tabel>
-<tr>
-<td><label for="pilihan">Pilih Kode Sablon</label></td>
-<td>:</td>
-<td><select id="pilihan">
- <option value="4.62">A1</option>
- <option value="4.10">A2</option>
- <option value="5.13">B1</option>
-<option value="4.62">B2</option>
-<option value="4.62">C1</option>
-<option value="3.08">C2</option>
-<option value="6.41">D1</option>
-<option value="5.64">D2</option>
-<option value="7.69">E1</option>
-<option value="6.92">E2</option>
-<option value="5.13">F1</option>
-<option value="4.62">F2</option>
-</select></td>
-</tr>
-<br></br>
-<tr>
-<td><label for="nilai1">Masukan QTY </label></td>
-<td>:</td>
-<td> <input type="number" min="1" max="5000" step="5" required placeholder="Masukkan angka" id="nilai1"></td>
-</tr>
-</tabel>
-<br></br> 
 
-<button id="hitung">Hitung</button>
- 
- <script defer src="script1.js"></script>
- <script defer src="script2.js"></script>
+<div class="container">
+    <h1>Welcome</h1>
+<div class="input-group">
+        <label for="kode">Kode</label>
+        <select id="input1">
+                <option value="4.62">A1</option>
+                <option value="4.10">A2</option>
+                <option value="5.13">B1</option>
+                <option value="4.62">B2</option>
+                <option value="4.62">C1</option>
+                <option value="3.08">C2</option>
+                <option value="6.41">D1</option>
+                <option value="5.64">D2</option>
+                <option value="7.69">E1</option>
+                <option value="6.92">E2</option>
+                <option value="5.13">F1</option>
+                <option value="4.62">F2</option>
+        </select>
+</div>
+<div class="input-group">
+        <label for="qty">Qty</label>
+        <input id="input2" type="number" placeholder="Masukkan Nilai" required>
+</div>
+    <button onclick="calculate()">Count</button>
+</div>
+<!-- Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="modalText">Some text in the Modal..</p>
+    </div>
+</div>
+<footer>
+    <div>&copy; 2024 PT Karya Saya</div>
+    <div class="version">Versi 1.2.1</div>
+</footer>
 </body>
-        <footer>
-          <ul>
-            <li>
-             <a href="https://www.instagram.com/septadwi_2">
-              <img src="instagram.png" alt="instagram"  /><a><p>Instagram</p></a>
-             </a>
-            </li>
-            <li>
-             <a href="https://www.facebook.com/prasetya.d.septa">
-              <img src="facebook.png" alt="facebook" /><a><p>Facebook</p></a>
-             </a>
-           
-            </li>
-            <li>
-             <a href="https://wa.me/+6285746862650">
-              <img src="whatsapp.png" alt="whatsapp" /><a><p>WhastApp</p></a>
-             </a>
-            </li>
-            <li>
-             <a href="https://t.me/septa1">
-              <img src="telegram.png" alt="telegram" /><a><p>Telegram</p></a>
-             </a>
-            </li>
-          </ul>
-         <br></br>
-         <ul>
-          <li>
-        <a><p>Copyright 2024 | Septa</p></a>
-          </li>
-         </ul>
-        
-        </footer>
-      
- 
 </html>
