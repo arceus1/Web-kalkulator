@@ -1,8 +1,17 @@
-body {
+<!--body {
  
  background-color: green;
  font-family: Arial, sans-serif;
-}
+} -->
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #004b63;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
 alert {
   position: fixed;
