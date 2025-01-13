@@ -5,7 +5,7 @@ function calculate() {
         var hours = Math.floor(sum / 60);
         var minutes = Math.round (sum % 60);
 
-        document.getElementById('modalText').innerText = "Hasile: " + Jam + " hours and>
+        document.getElementById('modalText').innerText = "Hasile: " + hours + " jam " + minutes + "menit";
         document.getElementById('myModal').style.display = "flex";
     }
 
