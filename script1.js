@@ -4,7 +4,7 @@ function calculate() {
         var sum = input2 / input1;
         var hours = Math.floor(sum / 60);
         var minutes = Math.round (sum % 60);
-
+ 
         document.getElementById('modalText').innerText = "Hasile: " + Jam + " hours and>
         document.getElementById('myModal').style.display = "flex";
     }
